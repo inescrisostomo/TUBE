@@ -5,6 +5,8 @@ diametro=100
 function setup() {
   
   createCanvas(windowWidth, windowHeight);
+  frameRate (10);
+  
   colorMode(RGB);
   background(0);
   
