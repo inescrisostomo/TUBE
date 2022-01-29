@@ -17,7 +17,9 @@ function draw() {
   background("rgba(0,0,0,0.2)");
    for (let i=0; i<60; i++){
    ellipse((a+(diametro/2))*2-50, windowHeight/2 +(sin(a/50)*200)*2, diametro, diametro);
-   a++;
-     
+   a++;     
+  }
+  if(a>2000){
+    a=0;
   }
 }
